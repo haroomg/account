@@ -13,7 +13,9 @@ Installation
 Clone the project repository.
 Install the required dependencies with pip install -r requirements.txt.
 Create a .env file with the necessary environment variables (HOST, PORT, DB_URI, SECRET_KEY, DEBUG).
-Run the application with uvicorn main:app --host 0.0.0.0 --port 8000.
+Run the application with The command:
+  - python3 run.py
+    
 Endpoints
 
 POST /register: Registers a new user.
